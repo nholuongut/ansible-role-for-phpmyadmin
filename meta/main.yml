@@ -1,0 +1,32 @@
+---
+dependencies:
+  - nholuong.apache
+  - nholuong.mysql
+  - nholuong.php-mysql
+  - nholuong.php
+
+galaxy_info:
+  role_name: phpmyadmin
+  author: nholuong
+  description: phpMyAdmin installation for Linux
+  company: "Midwestern Mac, LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - database
+    - development
+    - web
+    - mysql
+    - mariadb
+    - php
+    - phpmyadmin
